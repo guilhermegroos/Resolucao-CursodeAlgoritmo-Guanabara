@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="imagens/banner.png" alt="Algoritmos" width="400"/>
+  <img src="imagens/banner.jpg" alt="Algoritmos" width="400"/>
 </p>
 
 
