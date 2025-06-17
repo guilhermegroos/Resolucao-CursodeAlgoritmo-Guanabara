@@ -1,23 +1,17 @@
-algoritmo "Somador"
+algoritmo "somador"
 var
-   n, s: inteiro
-   resp: caractere
+  n: inteiro
+  c: inteiro
+  s: inteiro
+
 inicio
       s <- 0
-      repita
-               escreva ("Digite valor  ==> ")
-               leia (n)
-               escreva ("Você quer continuar? [s/n] ")
-               leia (resp)
+      para c <- 1 ate 5 faca
+               escreval("Digite um valor: ")
+               leia(n)
                s <- s + n
-      ate (resp = "n")
-      escreval ("A soma de todos os valores digtados é:", s)
-
-
-
-
-
-
-
-
+      fimpara
+      escreval("A soma dos valores é:", s)
+               
+      
 fimalgoritmo
